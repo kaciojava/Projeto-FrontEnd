@@ -92,6 +92,12 @@ body {
     -webkit-text-fill-color: transparent;
     background-clip: text;
 }
+.E-Corp {
+    width: 250px;
+    height: 250px;
+    filter: drop-shadow(0 0 10px rgba(54, 123, 245, 0.4));
+    border-radius: 50%;
+}
 
 .nav {
     display: flex;
