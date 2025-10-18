@@ -231,6 +231,7 @@ body.light-theme .dragon-logo {
     color: #ffffff;
     border: 2px solid transparent;
     box-shadow: 0 4px 15px rgba(247, 147, 30, 0.4);
+    text-decoration: none;
 }
 
 .btn-primary:hover {
