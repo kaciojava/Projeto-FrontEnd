@@ -346,4 +346,7 @@ body.light-theme .form-group input:focus {
 }
 
 
-@media (max-width:480px) {}
+@media (max-width:480px){
+    .register { padding: 20px; }
+    .close-register { right: 10px; top: 8px; }
+}
