@@ -331,7 +331,7 @@ h2 {
     transform: translateY(-10px) scale(1.02);
     box-shadow: 0 18px 40px rgba(0, 0, 0, 0.45);
 }
-}
+
 
 body.light-theme .dragon-footer {
     filter: drop-shadow(0 0 8px rgba(54, 123, 245, 0.3));
