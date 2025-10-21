@@ -91,7 +91,7 @@ if (currentTheme === 'light') {
     themeToggle.checked = true;
 }
 
-themeToggle.addEventListener('change', function() {
+themeToggle.addEventListener('change', function () {
     if (this.checked) {
         body.classList.remove('light-theme');
         localStorage.setItem('theme', 'dark');
@@ -99,4 +99,19 @@ themeToggle.addEventListener('change', function() {
         body.classList.add('light-theme');
         localStorage.setItem('theme', 'light');
     }
+});
+// ===== CURSOR PERSONALIZADO =====
+const cursor = document.querySelector(".cursor");
+
+document.addEventListener("mousemove", (e) => {
+    cursor.style.top = e.clientY + "px";
+    cursor.style.left = e.clientX + "px";
+});
+
+// Efeito de clique
+document.addEventListener("mousedown", () => {
+    cursor.style.transform = "translate(-50%, -50%) scale(0.8)";
+});
+document.addEventListener("mouseup", () => {
+    cursor.style.transform = "translate(-50%, -50%) scale(1)";
 });
