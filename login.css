@@ -42,7 +42,7 @@ body {
 .back {
   position: absolute;
   left: 20px;
-  padding: 5px;
+  padding: 10px;
   text-decoration: none;
   color: var(--text-primary);
   font-weight: 600;
