@@ -62,14 +62,14 @@ body {
     position: fixed;
     top: 0;
     left: 0;
-    width: 12px;
-    height: 12px;
+    width: 10px;
+    height: 10px;
     background: #00d9ff; /* azul E-Corp */
     border-radius: 50%;
     pointer-events: none;
     transform: translate(-50%, -50%);
     box-shadow: 0 0 10px #00d9ff, 0 0 20px #00d9ff;
-    transition: transform 0.08s ease-out;
+    transition: transform 0.08s ease-out; 
     z-index: 9999;
   }
 
