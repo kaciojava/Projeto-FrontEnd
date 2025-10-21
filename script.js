@@ -311,5 +311,3 @@ function updateSVGColors() {
 themeToggle.addEventListener('change', updateSVGColors);
 
 window.addEventListener('load', updateSVGColors);
-
-
