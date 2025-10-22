@@ -2,7 +2,7 @@
 
 // Seleciona elementos
 const loginCard = document.querySelector(".login-card");
-const registerCard = document.querySelector(".register");
+const registerCard = document.querySelector(".register-");
 const openRegisterBtn = document.getElementById("openRegister");
 
 // Mostrar tela de registro
@@ -15,7 +15,7 @@ if (openRegisterBtn) {
 }
 
 // Botão "Voltar" dentro da tela de registro
-const backButtons = document.querySelectorAll(".register .back");
+const backButtons = document.querySelectorAll(".register- .back");
 backButtons.forEach((btn) => {
     btn.addEventListener("click", (e) => {
         e.preventDefault();
