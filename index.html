@@ -49,6 +49,29 @@
         <div class="scroll-indicator">▼</div>
     </section>
 
+    <div class="chatbot-icon" onclick="toggleChat()">
+        <img src="images/chatbot.png" alt="bot-icon">
+
+
+        
+    </div>
+    <div class="chat-popup" id="chatPopUp">
+        <div class="chat-header">
+            <h4>E-corp Security | ChatBot</h4>
+            <span class="exit" onclick="toggleChat()">X</span>
+        </div>
+        <div class="chat-body" id="chatBody">
+            <p><strong>Bot:</strong>Olá, Como posso ajudar?</p>
+        </div>
+    
+        <div class="chat-footer" id="chatFooter">
+            <input type="text" id="msgInput" placeholder="Digite aqui sua mensagem...">
+            <button onclick="enviarMensagem()">Enviar</button>
+        </div>
+    </div>
+
+    
+
     <section class="tools-section">
         <div class="container">
             <h2 class="section-title">Mais do que uma só tecnologia</h2>
