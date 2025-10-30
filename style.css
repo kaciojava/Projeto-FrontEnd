@@ -100,7 +100,7 @@ select {
     position: fixed;
     width: 100%;
     top: 0;
-    z-index: 1000;
+    z-index: 9999999;
     border-bottom: 1px solid var(--border-color);
     transition: background 0.3s ease;
 }
@@ -242,6 +242,40 @@ body.light-theme .dragon-logo {
     display: flex;
     gap: 20px;
 }
+.chatbot-icon{
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    width: 180px;
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: none;
+    transition: transform 0.2s ease;
+    z-index: 999;
+}
+.chatbot-icon img{
+    width: 100px;
+    height: 100px;
+}
+
+.chatbot-icon:hover{
+    transform: scale(1.1);
+}
+
+.chat-popup {
+    position: fixed;
+    bottom: 90px;
+    right: 20px;
+    width: 300px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    display: none; 
+    flex-direction: column;
+  }
+  
 
 .btn {
     padding: 16px 40px;
