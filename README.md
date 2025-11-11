@@ -54,7 +54,7 @@ Este projeto foi construído utilizando apenas as tecnologias base da web (vanil
 
 * **HTML5:** Estrutura semântica da página.
 * **CSS3:** Estilização e layout (incluindo responsividade).
-* **JavaScript (ES6+)
+* **JavaScript** (ES6+)
 
 ***
 
@@ -72,7 +72,7 @@ Abaixo estão listados os membros da equipe que desenvolveram este projeto, junt
 
 | Nome do Membro | GitHub Username |
 | :--- | :--- |
-| [Erivelton Kacio] | [kaciojava](https://github.com/kaciojava) |
-| [Sanderson Pereira] | [Snzada](https://github.com/Snzada) |
-| [Reginaldo Pedro] | [pedrin08-rgb](https://github.com/pedrin08-rgb) |
-| [Esmael Victor] | [DarkyHArry](https://github.com/DarkyHArry) |
+| Erivelton Kacio | [kaciojava](https://github.com/kaciojava) |
+| Sanderson Pereira | [Snzada](https://github.com/Snzada) |
+| Reginaldo Pedro | [pedrin08-rgb](https://github.com/pedrin08-rgb) |
+| Esmael Victor | [DarkyHArry](https://github.com/DarkyHArry) |
